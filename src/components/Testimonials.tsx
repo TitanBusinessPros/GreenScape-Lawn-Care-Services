@@ -39,20 +39,7 @@ const Testimonials = () => {
     );
   };
 
-  return (
-    <section id="testimonials" className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            What Our Customers Say
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it - hear from satisfied customers who trust 
-            GreenScape with their lawn care needs.
-          </p>
-        </div>
-
-        
+  return;
 
 
 
@@ -81,8 +68,21 @@ const Testimonials = () => {
 
 
 
-      </div>
-    </section>);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 };
 
