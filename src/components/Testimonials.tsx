@@ -58,8 +58,7 @@ const Testimonials = () => {
 
             return (
               <Card key={index} className="bg-white hover:shadow-lg transition-shadow duration-300">
-                <CardContent className="p-6">
-                  
+                
 
 
 
@@ -70,13 +69,14 @@ const Testimonials = () => {
 
 
 
-                  
-                  
 
 
-                  
-                  
-                </CardContent>
+
+
+
+
+
+
               </Card>);
 
           })}
