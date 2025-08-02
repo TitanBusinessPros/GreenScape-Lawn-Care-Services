@@ -71,9 +71,9 @@ const Testimonials = () => {
 
 
                   
-                  <div className="flex mb-4">
-                    {renderStars(testimonial.rating)}
-                  </div>
+                  
+
+
                   
                   <p className="text-gray-700 italic">"{testimonial.text}"</p>
                 </CardContent>
