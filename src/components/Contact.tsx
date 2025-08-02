@@ -179,7 +179,7 @@ const Contact = () => {
                         <IconComponent className="h-6 w-6 text-primary" />
                       </div>
                       <h4 className="font-semibold text-gray-900 mb-2">{item.title}</h4>
-                      <p className="text-lg text-primary font-medium">{item.info}</p>
+                      
                       <p className="text-sm text-gray-600">{item.subtext}</p>
                     </CardContent>
                   </Card>);
