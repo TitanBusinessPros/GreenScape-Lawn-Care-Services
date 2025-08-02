@@ -52,13 +52,7 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => {
-            console.log(`Rendering testimonial from: ${testimonial.name}`);
-
-            return (
-              <Card key={index} className="bg-white hover:shadow-lg transition-shadow duration-300">
-                
+        
 
 
 
@@ -77,10 +71,16 @@ const Testimonials = () => {
 
 
 
-              </Card>);
 
-          })}
-        </div>
+
+
+
+
+
+
+
+
+
       </div>
     </section>);
 
