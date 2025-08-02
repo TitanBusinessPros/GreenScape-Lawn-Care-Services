@@ -1,24 +1,24 @@
-import React from 'react'
-import { MapPin, Phone, Mail, Clock } from 'lucide-react'
+import React from 'react';
+import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
-console.log('🦶 Footer component loaded')
+console.log('🦶 Footer component loaded');
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear()
-  console.log('Current year:', currentYear)
+  const currentYear = new Date().getFullYear();
+  console.log('Current year:', currentYear);
 
   const scrollToTop = () => {
-    console.log('Scrolling to top')
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
+    console.log('Scrolling to top');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   const scrollToSection = (sectionId: string) => {
-    console.log('Footer - scrolling to section:', sectionId)
-    const element = document.getElementById(sectionId)
+    console.log('Footer - scrolling to section:', sectionId);
+    const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
+      element.scrollIntoView({ behavior: 'smooth' });
     }
-  }
+  };
 
   return (
     <footer className="bg-gray-900 text-white py-16">
@@ -47,42 +47,42 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('hero')}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                  className="text-gray-400 hover:text-white transition-colors">
+
                   Home
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('services')}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                  className="text-gray-400 hover:text-white transition-colors">
+
                   Services
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('about')}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                  className="text-gray-400 hover:text-white transition-colors">
+
                   About Us
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('testimonials')}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                  className="text-gray-400 hover:text-white transition-colors">
+
                   Reviews
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('contact')}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                  className="text-gray-400 hover:text-white transition-colors">
+
                   Contact
                 </button>
               </li>
@@ -113,13 +113,13 @@ const Footer = () => {
                   <p className="text-sm text-gray-400">Mon-Fri, 8AM-6PM</p>
                 </div>
               </div>
-              <div className="flex items-start">
-                <Mail className="w-5 h-5 text-primary mr-3 mt-0.5" />
-                <div>
-                  <p className="text-white font-medium">info@greenscape.com</p>
-                  <p className="text-sm text-gray-400">24hr response time</p>
-                </div>
-              </div>
+              
+
+
+
+
+
+
               <div className="flex items-start">
                 <MapPin className="w-5 h-5 text-primary mr-3 mt-0.5" />
                 <div>
@@ -144,10 +144,10 @@ const Footer = () => {
               © {currentYear} GreenScape Lawn Care. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
-              <button 
+              <button
                 onClick={scrollToTop}
-                className="text-gray-400 hover:text-white transition-colors"
-              >
+                className="text-gray-400 hover:text-white transition-colors">
+
                 Back to Top
               </button>
               <span className="text-gray-600">|</span>
@@ -158,8 +158,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  )
-}
+    </footer>);
 
-export default Footer
+};
+
+export default Footer;
