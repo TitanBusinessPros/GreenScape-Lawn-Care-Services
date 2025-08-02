@@ -188,21 +188,21 @@ const Contact = () => {
             </div>
 
             <Card className="bg-primary text-white">
-              <CardContent className="p-8 text-center">
-                <h3 className="text-2xl font-semibold mb-4">Ready to Get Started?</h3>
-                <p className="text-green-100 mb-6">
-                  Join hundreds of satisfied customers who trust GreenScape with their 
-                  lawn care needs. Call us today for immediate assistance!
-                </p>
-                <Button
-                  size="lg"
-                  className="bg-white text-primary hover:bg-green-50"
-                  onClick={() => window.location.href = 'tel:+15551234567'}>
+              
 
-                  <Phone className="mr-2 h-5 w-5" />
-                  Call (555) 123-4567
-                </Button>
-              </CardContent>
+
+
+
+
+
+
+
+
+
+
+
+
+
             </Card>
           </div>
         </div>
