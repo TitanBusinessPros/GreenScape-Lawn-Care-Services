@@ -75,7 +75,7 @@ const Testimonials = () => {
 
 
                   
-                  <p className="text-gray-700 italic">"{testimonial.text}"</p>
+                  
                 </CardContent>
               </Card>);
 
